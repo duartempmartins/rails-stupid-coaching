@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
+ #coach_answer {
+  background-color: rgb(216, 216, 130);
+ }

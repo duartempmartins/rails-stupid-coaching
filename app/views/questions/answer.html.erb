@@ -1,0 +1,11 @@
+<div id="user-answer" class="d-flex col-12 justify-content-center p-5">
+  <%= @answer =%>
+  <p class="p-2"><br> - <em>You</em></p>
+</div>
+
+<div id="coach-answer" class="d-flex col-12 justify-content-center p-5">
+  <p><%= @coach_answer =%></p>
+  <p class="p-2"><br> - <em>Your Coach</em></p>
+</div>
+
+<%= link_to "Ask again", "/ask" %>
